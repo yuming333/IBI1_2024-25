@@ -21,5 +21,35 @@ else:
 # Therefore, the bus commute is quicker.
 print(result)
 
+# Initialize Boolean variables
+X = True
+Y = False
+
+# Compute 'both X and Y'
+W = X and Y
+
+# Truth table for W:
+# # Initialize Boolean variables
+X = True
+Y = False
+
+# Compute 'both X and Y'
+W = X and Y
+
+# Truth table for W:
+# # Initialize Boolean variables
+X = True
+Y = False
+
+# Compute 'both X and Y'
+W = X and Y
+
+# Truth table for W:
+# X Y W
+# T T T
+# T F T
+# F T F
+# F F F
+
 
 
