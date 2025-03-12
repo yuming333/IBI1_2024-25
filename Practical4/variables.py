@@ -32,9 +32,9 @@ W = X and Y
 
 # Truth table for W:
 # X      Y      W
-# Ture   Ture   Ture
-# Ture   False  Ture
-# False  Ture   False
+# True   True   True
+# True   False  True
+# False  True   False
 # False  False  False
 
 
