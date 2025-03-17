@@ -28,7 +28,7 @@ X = True
 Y = False
 
 # Compute 'both X and Y'
-W = X and Y
+W = X and Y # False
 
 # Truth table for W:
 # X      Y      W

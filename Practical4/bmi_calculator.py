@@ -11,16 +11,16 @@
 # BMI Calculator
 
 
-# Step 1:Get the weight (in kg) and height (in m) of the person
+# Step 1
 weight = float(input("Enter your weight in kg: "))
 height = float(input("Enter your height in meters: "))
 
 
-# Step 2: Calculate the BMI using the formula: BMI = weight / (height ** 2)
+# Step 2
 bmi = round(weight / (height ** 2), 2)
 
 
-# Step 3: Determine the category based on BMI:
+# Step 3
 if bmi < 18.5:
     category = "underweight"
 elif 18.5 <= bmi <= 30:
@@ -28,5 +28,5 @@ elif 18.5 <= bmi <= 30:
 else:
     category = "obese"
 
-# Step 4: Print the result, which includes the BMI and category
+# Step 4
 print("Your BMI is " + str(bmi) + ", which means you are " + category + ".")
