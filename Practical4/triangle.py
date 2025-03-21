@@ -1,3 +1,4 @@
+# Use an empty list to store the data
 triangle_numbers = []
 # Loop from 1 to 10 to calculate the first ten values
 for n in range(1, 11):
