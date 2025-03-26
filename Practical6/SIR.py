@@ -32,7 +32,7 @@ for t in range(1000):
     S_arr.append(S_arr[-1]-new_infected)
     I_arr.append(I_arr[-1]+new_infected-new_recovered)
     R_arr.append(R_arr[-1]+new_recovered)
-
+    plt.plot(S_arr, label='Susceptible Individuals')
 # Draw and disply the result
 plt.figure(figsize=(6, 4), dpi=200)
 plt.plot(S_arr, label='Susceptible Individuals')

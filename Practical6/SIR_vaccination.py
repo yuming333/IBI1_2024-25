@@ -59,7 +59,6 @@ plt.ylabel('Number of infected people', fontsize=12)
 plt.ylim(0, 5000)
 plt.xlim(0, 1000)
 plt.grid(True, alpha=0.3)
-plt.legend(ncol=2, title='Vaccination rate', 
-           bbox_to_anchor=(0.5, -0.15), loc='center')
+plt.legend(ncol=2, title='Vaccination rate', bbox_to_anchor=(0.5, -0.15), loc='center')
 plt.tight_layout()
 plt.show()
