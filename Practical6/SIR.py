@@ -23,5 +23,23 @@ R_arr = [R]
 # Update the number of individuals in each variable
 # Record each state in the arrays by adding the updated data using "append"
 for t in range(1000):
-    p_infection = beta*(I/N)
-    
+    p_infection = beta*(I_arr[-1]/N)
+# Randomly choose individuals to become infected
+    new_infected = np.random.choice([0, 1], S_arr[-1], p=[1 - p_infection, p_infection]).sum() 
+# Randomly choose individuals to recover
+    new_recovered = np.random.choice([0, 1], I_arr[-1], p=[1 - gamma, gamma]).sum()   
+ # Record the current updated state by adding data to the array
+    S_arr.append(S_arr[-1]-new_infected)
+    I_arr.append(I_arr[-1]+new_infected-new_recovered)
+    R_arr.append(R_arr[-1]+new_recovered)
+
+# Draw and disply the result
+plt.figure(figsize=(6, 4), dpi=200)
+plt.plot(S_arr, label='Susceptible Individuals')
+plt.plot(I_arr, label='Infected Individuals')
+plt.plot(R_arr, label='Recovered Individuals')
+plt.xlabel('Time')
+plt.ylabel('Number of Individuals')
+plt.title('SIR Model')
+plt.legend()
+plt.show()
