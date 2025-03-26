@@ -12,21 +12,23 @@
 
 
 # Step 1
-weight = float(input("Enter your weight in kg: "))
-height = float(input("Enter your height in meters: "))
+weight = float(input("Enter your weight in kg: ")) # Get weight input in the float format.
+height = float(input("Enter your height in meters: ")) # Get height input in the float format.
 
 
 # Step 2
-bmi = round(weight / (height ** 2), 2)
+bmi = round(weight / (height ** 2), 2) 
 
 
-# Step 3
+# Step 3 
 if bmi < 18.5:
     category = "underweight"
 elif 18.5 <= bmi <= 30:
     category = "normal weight"
-else:
+else: 
     category = "obese"
+# determine the catogary.
+
 
 # Step 4
-print("Your BMI is " + str(bmi) + ", which means you are " + category + ".")
+print("Your BMI is " + str(bmi) + ", which means you are " + category + ".") # Print a clear and comprehensive result.
