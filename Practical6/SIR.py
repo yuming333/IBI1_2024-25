@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Define the initial basic variables of the IRS model
-N = 1000 # Population size
+N = 10000 # Population size
 S = N-1 # Number of sceptible people, since only one person is infected at the very beginning
 I = 1 # One person is infected at the very beginning
 R = 0 # Recovered individuals. Nobody has yet recovered.
