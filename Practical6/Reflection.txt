@@ -1,0 +1,3 @@
+I think it is really so challenging for me. However, it is also very rewarding.
+I enjoy the process of debugging and learning while coding.
+Through this practical, I greatly improved my skills of plotting a chart and impelementing a model.
