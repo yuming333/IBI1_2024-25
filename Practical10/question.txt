@@ -1,0 +1,4 @@
+Aswer the question: What country or countries have recorded a DALYs greater than 650,000 in a single year?
+Line number in days.py where the code starts: 47
+The result discussion: Countries with DALYs > 650,000 in a single year: ['Rwanda']
+   It may be directly related to war-related issues and high incidence of infectious diseases, especially the combined impact of diseases such as HIV/AIDS and malaria.
