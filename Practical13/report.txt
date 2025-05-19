@@ -1,0 +1,5 @@
+The length and subcellular localisation of the human SOD2 protein: 222 AA; mitochondrion
+The range of percentage identities in the reported online BLAST results: 58.1% - 100%
+similarity between human and mouse: Similarity: 90.09%; Score: 1097
+similarity between human and random: Similarity: 7.21%; Score: -256
+similarity between mouse and random: Similarity: 6.31%; Score: -260
