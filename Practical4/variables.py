@@ -33,7 +33,7 @@ W = X and Y # False
 # Truth table for W:
 # X      Y      W
 # True   True   True
-# True   False  True
+# True   False  False
 # False  True   False
 # False  False  False
 

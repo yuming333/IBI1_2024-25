@@ -1,12 +1,10 @@
 # What does this piece of code do?
-# Answer: This Python code calculates the number of attempts required to generate two identical random integers within a specified range.  
+# Answer: This Python code calculates the number of attempts required to generate two identical random integers within a specified range, which is between 1 and 6. 
 # Import libraries
-# randint allows drawing a random number,
-# e.g. randint(1,5) draws a number between 1 and 5
+# randint allows drawing a random number
 from random import randint
 
-# ceil takes the ceiling of a number, i.e. the next higher integer.
-# e.g. ceil(4.2)=5
+# ceil takes the ceiling of a number, which is the next higher integer. For example, ceil(4.2)=5
 from math import ceil
 
 progress=0
