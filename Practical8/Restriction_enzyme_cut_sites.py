@@ -1,4 +1,3 @@
-
 def find_restriction_sites(DNA_sequence, restriction_site):
     """
     Find all restriction enzyme cut sites in a DNA sequence.
@@ -23,8 +22,12 @@ def find_restriction_sites(DNA_sequence, restriction_site):
     return [i+1 for i in range(len(DNA_sequence)-len(recog)+1) 
             if DNA_sequence.upper()[i:i+len(recog)] == recog]
 
+DNA_sequence = input('Enter the DNA sequence: ')
+restriction_site = input('Enter restriction site: ')
+print(find_restriction_sites(DNA_sequence, restriction_site))
+
 # Example usage
-print(find_restriction_sites("GAATTCGCTTAAGGAATTC", "GAATTC"))  # [1, 13]
+print(find_restriction_sites("GAATTCGCTTAAGGAATTC", "GAATTC"))  # [1, 14]
 print(find_restriction_sites("GGATCCAGCTAGGATCC", "GGATCC"))    # [1, 12]
 print(find_restriction_sites("ATCGATCG", "XYZ"))                 # Error
 print(find_restriction_sites("ATCGNATCG", "ATCG"))               # Error

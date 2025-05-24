@@ -1,3 +1,9 @@
+name = input("Enter the name of the patient: ") # Input patient name
+age = int(input('Enter the age of the patient: ')) # Input patient age
+admission_date = input('Enter the date of the latest admission of the patient: ') # Input the date of the latest admission of the patient
+medical_history = input('Enter the medical history of the patient: ') # Input medical history of the patient 
+
+
 class Patient:
     """
     A class to represent a patient record with name, age, admission date, and medical history.
@@ -30,3 +36,6 @@ patient1.print_details()  # Prints all details in one line
 
 patient2 = Patient("Jane Smith", 28, "2024-06-20", "Asthma, Allergies")
 patient2.print_details()
+
+patient = Patient(name, age, admission_date, medical_history)
+patient.print_details()
