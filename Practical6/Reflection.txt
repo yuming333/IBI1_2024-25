@@ -1,3 +1,3 @@
 I think it is really so challenging for me. However, it is also very rewarding.
-I enjoy the process of debugging and learning while coding.
-Through this practical, I greatly improved my skills of plotting a chart and impelementing a model.
+I enjoy the process of debugging and learning while coding. Initially, I struggled with debugging complex code and fine-tuning model parameters, but overcoming these obstacles deepened my understanding of algorithmic logic and problem-solving techniques.
+Through this practical, I greatly improved my skills of plotting a chart and impelementing a model. This experience solidified my confidence in tackling technical challenges and underscored the importance of hands-on practice in mastering programming.
