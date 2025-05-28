@@ -1,4 +1,4 @@
-# Import necessary libraries
+# Import the necessary libraries
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import cm
