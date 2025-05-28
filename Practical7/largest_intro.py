@@ -1,4 +1,4 @@
-# Import neccessary libraries
+# Import neccessary library
 import re
 # Define the variable seq
 seq = 'ATGCAAGTGGTGTGTCTGTTCTGAGAGGGCCTAA'
